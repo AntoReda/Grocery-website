@@ -7,7 +7,7 @@ if(isset($_POST['login'])){
 
      $username = $_POST['username'];
      $password = $_POST['password'];
-     $db_user_role= $POST['role'];
+     $db_user_role= $_POST['role'];
 
 
     $username = mysqli_real_escape_string($connection,$username);
