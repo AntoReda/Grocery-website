@@ -20,7 +20,7 @@ Website made to shop for products on the casual user level and perform admin act
 -Then add this folder to your localhost file location (for XAMPP place it under htdocs, for WAMP place it under www).<br/>
 <br/><br/>
 [now the hard part]<br/>
--Create a new SQL repository (on phpmyadmin) and name it "verdi". Then copy paste my SQL file contents (verdi.sql made by me) inside your new repository called verdi (made by you) and execute your repository to create the database on your local server.<br/>
+-Create a new SQL database (on phpmyadmin) and name it "verdi". Then copy paste my SQL file contents (verdi.sql made by me) inside your new database called verdi (made by you) and execute your repository to create the database on your local server.<br/>
 -Open my db.php file and add next to localhost the port number specific to your server(it is set to default which is 3306). If your phpmyadmin has a password, add your password next to the password field (these instructions are also included as comments insisde the db.php file).<br/>
 [end of hard part]<br/><br/>
 -Then open your browser and type: localhost/verdi/P1.php<br/>
